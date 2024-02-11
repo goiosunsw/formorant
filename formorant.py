@@ -36,12 +36,12 @@ class Window(QMainWindow, Ui_MainWindow):
     def about(self):
         QMessageBox.about(
             self,
-            "About Formorant",
-            "<p> A vocal resonance andtuner trainer</p>"
-            "<p> By the <a href=""https://www.phys.unsw.edu.au/music/"">music acoustics group at UNSW</a></p>"
-            "<p>- PyQt</p>"
-            "<p>- Qt Designer</p>"
-            "<p>- Python</p>",
+            "About Formorant<br>",
+            """A vocal resonance andtuner trainer<br>
+            By the <a href=""https://www.phys.unsw.edu.au/music/"">music acoustics group at UNSW</a><br>
+            <p>- PyQt</p>
+            <p>- Qt Designer</p>
+            <p>- Python</p>"""
         )
     
     def update_canvas(self):
